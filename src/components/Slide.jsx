@@ -67,8 +67,7 @@ export default function Slide() {
   
   // const v1 =  "translateY(-200px) translateZ(0px)",
     const v2 =  "translateX(200px) translateZ(0px)";
-    // v3=  "translateX(200px) translateZ(0px)",
-    // v4 = "translateX(-200px) translateZ(0px)";
+  
 
  
     return (
