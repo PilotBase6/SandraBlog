@@ -79,7 +79,7 @@ export default function Slide() {
       <div
         onFocus={touchSlide}
         style={{backgroundImage: `url(${showSlide[bannerIndex].img})`}}
-        className="z-20 touch-slider  w-full h-[80vh]  xl:h-[100vh] xl:mt-0 bg-center bg-cover relative bg-no-repeat duration-[1000ms]"
+        className="z-20  w-full h-[70vh] lg:h-[100vh] xl:mt-0 bg-contain bg-center relative bg-no-repeat duration-[1000ms]"
       >
         <ScrollEffect transformValor={v2} >
         <div

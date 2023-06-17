@@ -19,11 +19,12 @@ export default function Banner() {
       <ScrollEffect transformValor={v3} >
       <div className="relative text-black z-20 duration-700">
         <h1 className="font-poppins font-bold text-[2rem] md:text-[3.5rem] lg:text-[3.7rem] text-center">
+          
+          Consultoría
           {" "}
           <span className="text-transparent text-gradient">
-            Civil Engineer
+            Ingeniería Civil
           </span>{" "}
-          service
         </h1>
         <p className=" font-poppins text-[.8rem] xl:text-[1.3rem]  text-justify mt-4">
         Ingeniera civil con formación técnica administrativa en el diseño, planificación e implementación de proyectos de obra civil e intervenciones de conservación ambiental. Cuento con experiencia en consultoría e interventoría de obras civiles, estimación de presupuestos, informes técnicos y planos.
@@ -33,13 +34,13 @@ export default function Banner() {
             className="w-[8rem] xl:w-[10rem] xl:h-[3rem] xl:text-[1.2rem] min-w-[8rem] p-2 font-poppins font-semibold text-[.9rem] rounded-full cursor-pointer text-center bg-teal-700 text-white"
             href="#service"
           >
-            Services
+            Servicios
           </a>
           <a
             className="w-[8rem] xl:w-[10rem] xl:h-[3rem] xl:text-[1.2rem] min-w-[8rem] p-2 font-poppins font-semibold text-[.9rem] rounded-full cursor-pointer text-center bg-teal-700 text-white"
             href="#contact"
           >
-            Contact Me
+            Contactame
           </a>
         </div>
       </div>

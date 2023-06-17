@@ -30,7 +30,7 @@ export default function AboutMe() {
           <div className="lg:pt-[10rem]">
             <ScrollEffect transformValor={v2}>
               <h1 className="font-poppins text-2xl lg:mt-[10rem] xl:text-[3rem] xl:leading-[3.5rem] font-bold w-full mb-8 duration-1000">
-                About{" "}
+                Sobre{" "}
                 <span className="text-transparent text-gradient">
                   Sandra Maldonado
                 </span>
@@ -48,13 +48,13 @@ export default function AboutMe() {
                 className="w-[8rem] xl:w-[10rem] xl:h-[2.9rem] xl:text-[1.2rem]  min-w-[8rem] p-2 font-poppins font-semibold text-[14px] rounded-full cursor-pointer   bg-teal-700 text-white"
                 href="/"
               >
-                CV Download
+                Descargar CV
               </a>
               <a
                 className="w-[8rem] xl:w-[10rem] xl:h-[2.9rem] xl:text-[1.2rem] min-w-[8rem] p-2 font-poppins font-semibold text-[14px] rounded-full cursor-pointer   bg-teal-700 text-white"
                 href="#contact"
               >
-                Contact Me
+                Contactame
               </a>
             </div>
             </ScrollEffect>

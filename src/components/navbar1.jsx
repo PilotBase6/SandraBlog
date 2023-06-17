@@ -4,7 +4,7 @@ export default function NavBar() {
   const navMenu = [
     {
       href: "#home",
-      text: "Home",
+      text: "Inicio",
       icon: (
         <svg
           className="lg:hidden"
@@ -21,7 +21,7 @@ export default function NavBar() {
     },
     {
       href: "#slide",
-      text: "Projects",
+      text: "Proyectos",
     },
     {
       href: "#aboutme",
@@ -139,7 +139,7 @@ export default function NavBar() {
                 <a
                 onClick={handleClick}
                   href={item.href}
-                  className="flex flex-col justify-center text-[1.5rem] font-poppins font-semibold items-center duration-300 ease-linear text-transparent bg-clip-text bg-gradient-to-r from-white xl:hover:hover-gradient xl:text-gradient to-[#769A9A] "
+                  className="flex flex-col justify-center text-[1.5rem] font-poppins font-semibold items-center duration-300 ease-linear text-transparent bg-clip-text bg-gradient-to-r from-white xl:hover:hover-gradient xl:text-[#005650] to-[#769A9A] "
                 >
                   {item.text}
                 </a>

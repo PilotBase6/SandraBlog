@@ -24,28 +24,28 @@ export default function ContactMe() {
     const errors={};
 
     if (!formData.name.trim()) {
-      errors.name = "Name is required";
+      errors.name = "Este campo es obligatorio. Por favor, asegúrate de completarlo.";
       console.info(errors.name);
       
     }
 
     if (!formData.email.trim()) {
-      errors.email = "Email is required";
+      errors.email = "Este campo es obligatorio. Por favor, asegúrate de completarlo.";
       console.info(errors.email);
       
     } else if (!/\S+@\S+\.\S+/.test(formData.email)) {
-      errors.email = "Email is invalid";
+      errors.email = "El formato de este campo es inválido. Por favor, verifica y corrige la información ingresada.";
       console.info(errors.email);
      
     }
     if (!formData.subject.trim()) {
-      errors.subject = "Subject is required";
+      errors.subject = "Este campo es obligatorio. Por favor, asegúrate de completarlo.";
       console.info(errors.subject);
      
     }
 
     if (!formData.message.trim()) {
-      errors.message = "Message is required";
+      errors.message = "Este campo es obligatorio. Por favor, asegúrate de completarlo.";
       console.info(errors.message);
       
     }
@@ -92,7 +92,7 @@ export default function ContactMe() {
       <div className="grid xl:grid-cols-2 place-items-center ">
         <article className="px-11 xl:px-8">
           <h1 className="text-center text-4xl md:text-5xl lg:text-6xl font-poppins text-transparent text-gradient font-bold">¿Interesado en mi trabajo?</h1>
-          <p className="mt-8 font-poppins text-lg md:text-xl lg:text-2xl text-justify font-semibold">Enviame un mensaje con la propuesta o contactame atraves de mis redes sociales.</p>
+          <p className="mt-8 font-poppins text-lg md:text-xl lg:text-2xl text-justify font-semibold">Envíame un mensaje con la propuesta o contactame a través de mis redes sociales.</p>
 
         </article>
       <form
@@ -108,7 +108,7 @@ export default function ContactMe() {
               htmlFor="name"
               className="block text-sm font-semibold leading-6 text-gray-900"
             >
-              Name
+              Nombre
             </label>
             <div className="mt-2.5">
               <input
@@ -145,7 +145,7 @@ export default function ContactMe() {
               htmlFor="subject"
               className="block text-sm font-semibold leading-6 text-gray-900"
             >
-              Subject
+              Asunto
             </label>
             <div className="mt-2.5">
               <input
@@ -163,7 +163,7 @@ export default function ContactMe() {
               htmlFor="message"
               className="block text-sm font-semibold leading-6 text-gray-900"
             >
-              Message
+              Mensaje
             </label>
             <div className="mt-2.5">
               <textarea
@@ -184,7 +184,7 @@ export default function ContactMe() {
             type="submit"
             className="block w-full rounded-md bg-[#005650] px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-[#4ABD7F] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#005650]"
           >
-           {isMessageSent?"Message sent!":" Let's talk"}
+           {isMessageSent?"Menesaje Enviado!":" Hablemos!"}
           </button>
         </div>
       </form>
