@@ -9,7 +9,6 @@ import './index.css'
 function App() {
   return (
     <>
-      <body id="home">
       <Header/>
       <main className="text-[#333]">
         <Slide/>
@@ -18,8 +17,6 @@ function App() {
         <ContactMe/>        
       </main>
       <Footer/>
-      </body>
-
     </>
   )
 }
